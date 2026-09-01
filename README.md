@@ -42,10 +42,14 @@ Apply steganography detection tools like steghide, zsteg, or binwalk to uncover 
 sudo apt update
 sudo apt install exiftool -y
 ```
+
+
 - **Extract metadata from a file:**
 ```bash
 exiftool image.jpg
 ```
+
+
 - **Batch process a folder:**
 ```bash
 exiftool -r /path/to/folder
@@ -57,6 +61,10 @@ exiftool -r /path/to/folder
 - ```-time:all: Show only timestamps```
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
+<img width="960" height="1130" alt="Screenshot 2026-09-01 155254" src="https://github.com/user-attachments/assets/e0212628-d862-4dbb-ac81-c6e3a22beb4b" />
+<img width="925" height="1035" alt="Screenshot 2026-09-01 155244" src="https://github.com/user-attachments/assets/cea23f2c-6ecf-4b9f-9f94-8f739cfee7ed" />
+<img width="950" height="1068" alt="Screenshot 2026-09-01 155302" src="https://github.com/user-attachments/assets/57d9ae53-35ba-48b7-9f79-e2bb0a0e715b" />
+
 
 
 
@@ -80,6 +88,9 @@ steghide extract -sf hidden.jpg
 
 ```
 
+<img width="960" height="1130" alt="Screenshot 2026-09-01 155254" src="https://github.com/user-attachments/assets/11362d1a-aaea-4b63-8255-e7a6b2ac14f2" />
+<img width="941" height="1065" alt="Screenshot 2026-09-01 160008" src="https://github.com/user-attachments/assets/88c7f56e-d06d-49f1-8f18-d1809623cd60" />
+
 
 ### Using binwalk – for file analysis
 ```bash
@@ -89,6 +100,10 @@ binwalk suspicious.jpg
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="960" height="1075" alt="Screenshot 2026-09-01 160201" src="https://github.com/user-attachments/assets/a1e89b26-3473-4f0c-b51d-4d99269a9bd0" />
+
+
+
 
 
 ## RESULT:
